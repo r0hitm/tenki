@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>天気 | Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <div class="container mt-10 max-w-md">
         <div class="flex justify-center items-center p-3 m-auto">
             <form id="search" class="flex justify-center items-center border rounder">
-                <input type="text" placeholder="Search City, Country" class="p-1">
+                <input name="q" type="text" placeholder="Search City or Country" class="p-1">
                 <button class="max-h-5 max-w-5" type="submit">
                     <svg class="h-5 aspect-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px"
                         height="30px">
@@ -25,18 +26,18 @@
             </form>
         </div>
         <div class="text-left px-4 mt-3">
-            <span class="text-xl" id="location">London, UK</span>
+            <span class="text-xl" id="city">London, UK</span>
         </div>
         <div class="flex justify-center items-center my-8">
             <div class="w-4/5 flex flex-col items-center">
                 <div id="w-desc" class="mx-auto">
-                    <span id="w-icon" class="">&omicron;</span>
-                    <span id="w-main" class="font-bold">Clouds</span>
+                    <span id="w-desc-icon" class="">&omicron;</span>
+                    <span id="w-desc" class="font-bold">Clouds</span>
                 </div>
-                <div id="w-temp" class="mt-6 relative">
-                    <span id="w-temp-value" class="text-9xl font-bold">33</span>
-                    <span id="w-temp-unit" class="text-2xl font-bold absolute top-0 right-0">°C</span>
-                    <span id="w-temp-unit" class="text-2xl font-bold absolute top-0 right-0 hidden">°F</span>
+                <div class="mt-6 relative">
+                    <span id="w-temp" class="text-9xl font-bold">33</span>
+                    <span id="w-temp-unit-c" class="text-2xl font-bold absolute top-0 right-0">°C</span>
+                    <span id="w-temp-unit-f" class="text-2xl font-bold absolute top-0 right-0 hidden">°F</span>
                 </div>
             </div>
         </div>

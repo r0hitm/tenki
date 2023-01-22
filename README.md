@@ -2,6 +2,9 @@
 
 A Weather Forecast Web Application.
 
+The app uses Geocode and Weather APIs from [OpenWeatherMap](https://openweathermap.org/api) to get the coordinates of a city that the user searches for, and then uses the coordinates to get the weather forecast for that city.
+(Because the weather api requires coordinates and in-built geocoding is deprecated.)
+
 *Note: 天気 (Tenki) is Japanese for weather.*
 
 ## Features
