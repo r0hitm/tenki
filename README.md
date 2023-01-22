@@ -14,3 +14,7 @@ A Weather Forecast Web Application.
 
 I am using this project to learn asynchronicity (`Promises` and, `async + wait`) in JavaScript, and to practice using APIs.
 This project is inspired by [TOP Curriculum](https://www.theodinproject.com/lessons/node-path-javascript-weather-app).
+
+### Note to Self
+
+- [ ] Obfuscate API key (Currently, the API key is visible in the source code. It is not a problem for now, but it is not a good practice. I will look into how to obfuscate the API key.)
