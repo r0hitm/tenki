@@ -9,10 +9,10 @@ The app uses Geocode and Weather APIs from [OpenWeatherMap](https://openweatherm
 
 ## Features
 
-- [ ] Show the weather forecast using the [OpenWeatherMap API](https://openweathermap.org/api)
-- [ ] Search for a city
-- [ ] Display the forecast in Celsius or Fahrenheit
-- [ ] Background image changes depending on the weather
+- [x] Show the weather forecast using the [OpenWeatherMap API](https://openweathermap.org/api)
+- [x] Search for a city
+- [x] Display the forecast in Celsius or Fahrenheit
+- [ ] Show forecast for next 5 days as a list below the today's weather
 - [ ] Greet using a gif depending on the weather
 
 I am using this project to learn asynchronicity (`Promises` and, `async + wait`) in JavaScript, and to practice using APIs.
