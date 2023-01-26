@@ -129,5 +129,8 @@ const updateDOM = _ => {
     wIcon.src = `https://openweathermap.org/img/wn/${weatherData.iconCode}.png`;
 }
 
-// fetchGeocode("London");
-// searchForm.submit();
+// Load the default weather location "New Delhi"  on load
+(async _ => {
+    await fetchWeatherData("New Delhi");
+    updateDOM();
+})();
