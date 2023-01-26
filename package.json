@@ -4,9 +4,11 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "serve": "parcel serve"
+    "serve": "parcel serve",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
