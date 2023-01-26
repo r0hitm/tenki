@@ -21,3 +21,4 @@ This project is inspired by [TOP Curriculum](https://www.theodinproject.com/less
 ### Note to Self
 
 - [ ] Obfuscate API key (Currently, the API key is visible in the source code. It is not a problem for now, but it is not a good practice. I will look into how to obfuscate the API key.)
+- [ ] `pacel-bundler` is resolving the path values `./index.js` and `./style.css` files in `src/index.html` to `/index.<hash>.js` and `/style.<hash>.css` respectively. And I couldn't find a way to change this behavior. This is a basic feature of any bundler. After spending a lot of time on this, I decided to leave it as it is for now and manually correct the paths in `dist/index.html` after every build. I will look into this later.
